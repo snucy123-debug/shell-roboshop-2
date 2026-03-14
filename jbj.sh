@@ -1,10 +1,10 @@
 #!/bin/bash
-
-if [ $((77-5)) -eq 72 ]
+NUMBER= $(@)
+if [ ($NUMBER - 2) -eq 5 ]
 then
-    echo "ITS A CORRECT ANSWER"
+    echo "ITS A 7"
 else
-    echo "its a wrong answer"
+    echo "WRONG ANSWER USE 7"
 fi
  
  

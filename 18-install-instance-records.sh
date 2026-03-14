@@ -6,8 +6,8 @@ INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipp
 ZONE_ID="Z01604136BDJ5YNPI3XX" # replace with your ZONE ID
 DOMAIN_NAME="vkdevin.online" # replace with your domain
 
-for instance in ${INSTANCES[@]} # If we run this it will install all instance 
-#for instance in $@
+#for instance in ${INSTANCES[@]} # If we run this it will install all instance 
+for instance in $@
 #ABOVE COMMAND  instance in $@  ►so here it help ful for install instance what ever u need like we need to give inastance name in linux server.
 
 do

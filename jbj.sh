@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if ( 2-5 eq -3 )
+if [ $((77-5)) -eq 72 ]
 
     echo "ITS A CORRECT ANSWER"
 else
